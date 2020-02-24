@@ -1,0 +1,12 @@
+GET: http://localhost:8080/crud-rest/getAllEmployees
+GET: http://localhost:8080/crud-rest/getAllEmployees/1
+GET: http://localhost:8080/crud-rest/getAllEmployeesByIds/1,2,3
+POST:http://localhost:8080/crud-rest/createEmployee
+    body
+      {"id":112,"first_name":"Manoj","mid_name":"","last_name":"Sen","date":"1994-10-03","email":"manoj@gmail.com","address":"Mumbai"}
+PUT: http://localhost:8080/crud-rest/updateEmployee/3
+    body
+      {"id":112,"first_name":"Manoj","mid_name":"","last_name":"Sen","date":"1994-10-03","email":"manoj@gmail.com","address":"Mumbai"}
+DELETE: http://localhost:8080/crud-rest/deleteEmployee/3
+DELETE: http://localhost:8080/crud-rest/deleteAllByIds/1,2,3
+DELETE: http://localhost:8080/crud-rest/deleteAllEmployees
